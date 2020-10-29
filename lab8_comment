@@ -1,0 +1,19 @@
+1. Utilsation de la commande: cp <fichier source> <nom du fichier copier>
+
+2. Utilisation de la commande: gcc -Wall -c *.c
+
+3. Utilisation de la commande: ar r liboutils.a *.o
+
+5. L'index peut permettre d’accélérer substantiellement la phase d’édition des liens.
+   Utilisation de la commande: ranlib liboutils.a
+
+7. Utilisation de la commande: sudo mkdir include
+                               sudo mkdir lib
+
+9. Utilisaton de la commande: gcc gcc main.c -L /opt/lib -I /opt/include -loutils -o main.exe
+
+11. Utilisation de la commande: sudo ar -q /opt/lib/liboutils.a var.o
+
+12. Utilisation de la commande: sudo ar -t /opt/lib/liboutils.a
+
+16. Utilisation de la commande: gcc main.c -lm -L /opt/lib -I /opt/include -loutils -o main.exe
